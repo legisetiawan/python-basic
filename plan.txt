@@ -1,2 +1,2 @@
 Dasar Python
-- Number Int
+- Number Int, float
