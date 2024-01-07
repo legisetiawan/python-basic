@@ -1,2 +1,2 @@
 Dasar Python
-- Number Int, float, complex
+- Number Int, float, complex, sequences, immutable sequences
