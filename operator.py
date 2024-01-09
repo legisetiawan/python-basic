@@ -13,4 +13,8 @@ print(kali)
 print(f"hasil kurang = {y} - {x}" )
 kali = int(y-x) # conversi bilangan float ke int
 print(kali)
+print(f"hasil modulus = {y} % {x}" )
+kali = int(y%x) # conversi bilangan float ke int
+print(kali)
+
 
