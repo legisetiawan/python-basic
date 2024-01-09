@@ -18,6 +18,6 @@ print(list)
 print(tuple)
 print('list tuple')
 # type data range
-range = range(10)
+range = range(11)
 print(range)
-print(range[0])
+print(range[1])
