@@ -6,7 +6,7 @@ print(list[0]) #mengambil bilangan pertama
 print('bil kedua:')
 print(list[2]) #mengambil bilangan keduas
 
-#Type data tuple type data yg tidak bisa di ubah
+#Type data tuple type data yg tidak bisa di ubah, string, byte
 tuple =("ani","budi")
 print(tuple)
 print(tuple[0])
@@ -21,3 +21,4 @@ print('list tuple')
 range = range(11)
 print(range)
 print(range[1])
+#Type data yg  bisa di ubah list , array byte
