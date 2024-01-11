@@ -1,2 +1,0 @@
-Dasar Python
-- Number Int, float, complex, sequences, immutable sequences
