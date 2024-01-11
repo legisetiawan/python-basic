@@ -11,7 +11,8 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "justMyCode": true
+            "justMyCode": true,
+            "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript","Python"]
         }
     ]
 }
