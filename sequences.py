@@ -11,8 +11,10 @@ tuple =("ani","budi")
 print(tuple)
 print(tuple[0])
 # perbedaan list dengan tuple data tuple tidak bisa di ubah
-list = ["a""b"]    
-tuple = ("a""b")
+list = ["a","b"] 
+list.insert(2,"c") # menyisipkan data dengan method insert(index,data)
+list.insert(2,"d")   
+tuple = ("a","b")
 list[0] = "b"
 print(list)
 print(tuple)
