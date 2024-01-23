@@ -1,9 +1,8 @@
 from abc import ABC, abstractmethod
-# mewarisi method abstact class import dari abc, dan ABC class abtract, abstractmethod decorator methodnya.
+# mewarisi method abstact class import dari abc, dan ABC class abtract, abstractmethod decorator methodnya. penggunaan abstractclass dengan decorator lain
 class Button(ABC):
     def __init__(self,set_link):
-        self.link = set_link
-    @abstractmethod
+        self.link = set_link # setter
     def click(self):
         pass
     
@@ -15,13 +14,13 @@ class Button(ABC):
 class PressButton(Button):
     
     def click(self):
-        print("Got to link:{}".format(self.link))
+        print("Got to link:{}".format(self.link)) # getter
         
-    @Button.link.setter
+    @Button.link.setter # urutan setter di perhatikan
     def link(self,input):
         self.__link = input
         
-    @link.getter
+    @link.getter # getter
     def link(self):
         return self.__link
         
